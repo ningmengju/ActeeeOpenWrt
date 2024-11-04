@@ -20,6 +20,5 @@
 #sed -i 's/OpenWrt/P3TERX-Router/g' package/base-files/files/bin/config_generate
 git clone https://github.com/sirpdboy/luci-app-autotimeset package/luci-app-autotimeset
 git clone https://github.com/EOYOHOO/rkp-ipid.git package/rkp-ipid
-wget -P /dl https://sources.openwrt.org/ath11k-firmware-2023-03-31-a039049a.tar.xz
 make download -j8 V=s
 
